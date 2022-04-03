@@ -25,9 +25,9 @@ The third and fourth step we will see in greater detail in the following section
 The goal of the of Outcomes based on Launch Date was to be able to provide Louise with a visualization of campaign outcomes based on Launch Dates, by creating a graph where we can evaluate if the campaign was successful, failed or cancelled. 
 
 To begin this analysis, we created a new column called Years, so that we were able to fitter our information of launch dates to month and see if the year in which the campaign was launched, changed the outcome of the campaigns. 
-To be able to create this visualization we created a pivot table LINK HERE with the months of the campaign and the outcomes of theater campaigns and sorted the results so that the successful campaigns were shown first. We decided to leave Year as a filter to be able to dive deep into further analysis if necessary.
+To be able to create this visualization we created a pivot table you can find in the **Theater Outcomes by Launch Date** sheet [Kicktarter-analysis](https://github.com/kplazascp/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)  with the months of the campaign and the outcomes of theater campaigns and sorted the results so that the successful campaigns were shown first. We decided to leave Year as a filter to be able to dive deep into further analysis if necessary.
 
-(image here)
+![Theater_Outcomes_vs_Launch](https://github.com/kplazascp/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 In this graph we can see that the highest number of successful campaigns start increasing in May, with the highest point of successful outcomes in May followed by June and July, and in August it is at the same point than May and from September it starts to follow the same pattern of January February and March. 
 Also, we can evidence that the highest points of failed campaigns were in the months of May, June, July, August and October, being the highest failed outcomes May and October.
@@ -36,7 +36,7 @@ To close the analysis of this graph, it is important to look at December, where 
 
 ###### Was there a Year where more campaigns were successful?
 
-(image here)
+![Theater_Outcomes_vs_Launch_Years](https://github.com/kplazascp/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch_Years.png)
 
 If we visualize the same data of outcomes of campaigns in theater subcategory by years, we can evidence that from 2010 to 2013 all of the campaigns where successful (100%) and from 2014 forward (2014 to 2017) the percentage of successful campaigns is around 60%, which means that 6 out of 10 fundraising campaigns in theater will be successful. 
 For the failed fundraising campaigns, we also can see the trend that before 2013 there were no failed campaigns, but since 2014 the average percentage of failed campaigns is around 35%.
@@ -47,7 +47,7 @@ This means that out of 10 fundraising campaigns in theater, 6 are going to be su
 For the second analysis, we wanted to evaluate the percentage of successful, failed and canceled theater campaigns based on the funding goal amount.
 For this analysis we created a table with COUNTIFS() because we divided the goal amount in ranges so that we could analyze in groups the outcomes and not individually. 
 
-(image here)
+![Outcomes_Based_On_Goals](https://github.com/kplazascp/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 As we are able to see in the graph, the higher percentage of successful campaigns where on the range goals of less than $5,000 USD (average 74% of successful campaigns) and from $35,000 to $44,900 USD (with 67% of successful campaigns), also with a higher percent of successful campaigns but not as high as the previous goals are the campaigns with goals in the range from $10,000 to $14,999 USD.
 The range of goal that had 50% of successful campaigns and 50% of failed campaigns were from $15,000 to $20,000 USD and for the higher percentage of failed campaigns we found them in the goal range from $20,000 to $34,999 and for more than $45,000 USD. 
