@@ -54,7 +54,9 @@ The range of goal that had 50% of successful campaigns and 50% of failed campaig
 
 ### Challenges and Difficulties Encountered
 
-The challenges and difficulties that could be encountered are the creation of new formulas and columns added to the analysis, to prevent this, a good advice is to use the excel file attached so that it serves as a guide. [Kicktarter-analysis]
+The challenges and difficulties that could be encountered are the creation of new formulas and columns added to the analysis, to prevent this, a good advice is to use the excel file attached so that it serves as a guide. 
+[Kickstarter-Analysis](https://github.com/kplazascp/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx).
+
 Also, it is important to consider the information you want to display in the pivot table, before locating the rows, columns or values so that it visualizes the way you intended it to look like.
 
 ## Results
